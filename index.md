@@ -1,7 +1,10 @@
 ---
 layout: default
-title: About
+title: Home
 ---
-# About
 
-I am a researcher working on autocratization, international organisations, and global governance.
+# Manish Dutta
+
+Aspiring Doctoral Researcher | Political Science | International Relations
+
+I am a researcher interested in autocratization, democratic backsliding, international organisations, global social policy, decolonisation, and human rights.
