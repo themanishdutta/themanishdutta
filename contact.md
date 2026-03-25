@@ -4,8 +4,19 @@ title: Contact
 ---
 
 # Contact
-[Download CV](/files/CV_Manish_Dutta.pdf)
-<p>Email: <span id="email"></span></p>
+
+<p>
+  <a href="{{ '/files/CV_Manish_Dutta.pdf' | relative_url }}" target="_blank">
+    Download CV (PDF)
+  </a>
+</p>
+
+<p>Email: <span id="email">[enable JavaScript to view]</span></p>
+
+<p>
+  <a href="https://orcid.org/0009-0004-6464-3600" target="_blank">ORCID</a> ·
+  <a href="https://www.linkedin.com/in/themanishdutta/" target="_blank">LinkedIn</a>
+</p>
 
 <script>
   const user = "dutta.manish";
@@ -15,5 +26,3 @@ title: Contact
   document.getElementById("email").innerHTML =
     '<a href="mailto:' + email + '">' + email + '</a>';
 </script>
-[ORCID](https://orcid.org/0009-0004-6464-3600)  
-[LinkedIn](https://www.linkedin.com/in/themanishdutta/)
