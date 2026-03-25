@@ -7,14 +7,20 @@ title: Home
 
 <p class="subtitle">Aspiring Doctoral Researcher | Political Science | International Relations</p>
 
-<p class="keywords">Autocratization  |  Democratic Backsliding  |  International Organisations  |  Global Social Policy  |  Human Rights</p>
-
-<img src="{{ '/files/profile.jpg' | relative_url }}" alt="Portrait of Manish Dutta" class="profile-image">
+<p class="keywords">
+Autocratization · Democratic Backsliding · International Organisations · Global Social Policy · Human Rights
+</p>
 
 I am a researcher interested in autocratization, democratic backsliding, international organisations, global social policy, decolonisation, and human rights.
 
-My work focuses on how changing political regimes reshape governance, accountability, and the role of international organisations in a period of democratic backsliding.
+My work focuses on how political change shapes governance and the role of international organisations in an era of democratic backsliding.
 
 I am currently open to PhD opportunities.
 
-You can find more about my work on the Research and Publications pages, or download my CV from the Contact page.
+---
+
+### Contact
+
+📧 dutta.manish@icloud.com  
+[ORCID](https://orcid.org/0009-0004-6464-3600) ·  
+[LinkedIn](https://www.linkedin.com/in/themanishdutta/)
