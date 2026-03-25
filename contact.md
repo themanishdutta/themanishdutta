@@ -17,12 +17,3 @@ title: Contact
   <a href="https://orcid.org/0009-0004-6464-3600" target="_blank">ORCID</a> ·
   <a href="https://www.linkedin.com/in/themanishdutta/" target="_blank">LinkedIn</a>
 </p>
-
-<script>
-  const user = "dutta.manish";
-  const domain = "icloud.com";
-  const email = user + "@" + domain;
-
-  document.getElementById("email").innerHTML =
-    '<a href="mailto:' + email + '">' + email + '</a>';
-</script>
