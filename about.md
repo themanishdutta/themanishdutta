@@ -5,7 +5,7 @@ title: About
 
 # About
 
-<img src="{{ '/files/profile.jpg' | relative_url }}" alt="Portrait of Manish Dutta" class="profile-image">
+<img src="{{ '/files/profile.jpeg' | relative_url }}" alt="Portrait of Manish Dutta" class="profile-image">
 
 I am a researcher interested in autocratization, democratic backsliding, international organisations, global social policy, decolonisation, and human rights.
 
