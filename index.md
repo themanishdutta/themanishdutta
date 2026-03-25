@@ -21,11 +21,6 @@ I am currently open to PhD opportunities.
 
 ### Contact
 
-📧 ---
-layout: default
-title: Contact
----
-
 # Contact
 Email: dutta.manish [at] icloud [dot] com
 
