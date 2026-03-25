@@ -21,6 +21,6 @@ I am currently open to PhD opportunities.
 
 ### Contact
 
-📧 dutta.manish@icloud.com  
+📧 dutta (dot) manish (at) icloud.com
 [ORCID](https://orcid.org/0009-0004-6464-3600) ·  
 [LinkedIn](https://www.linkedin.com/in/themanishdutta/)
