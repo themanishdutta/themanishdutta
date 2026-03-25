@@ -17,8 +17,3 @@ title: Contact
   <a href="https://orcid.org/0009-0004-6464-3600" target="_blank">ORCID</a> ·
   <a href="https://www.linkedin.com/in/themanishdutta/" target="_blank">LinkedIn</a>
 </p>
-
-<p>
-  <a href="https://orcid.org/0009-0004-6464-3600" target="_blank">ORCID</a> ·
-  <a href="https://www.linkedin.com/in/themanishdutta/" target="_blank">LinkedIn</a>
-</p>
