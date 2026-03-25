@@ -3,26 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }} | {{ site.title }}</title>
-  <link rel="stylesheet" href="/assets/css/style.css">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
+  <div class="site-container">
+    <header class="site-header">
+      <div class="site-title">
+        <a href="{{ '/' | relative_url }}">Manish Dutta</a>
+      </div>
+      <nav class="site-nav">
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/about.html' | relative_url }}">About</a>
+        <a href="{{ '/research.html' | relative_url }}">Research</a>
+        <a href="{{ '/publications.html' | relative_url }}">Publications</a>
+        <a href="{{ '/contact.html' | relative_url }}">Contact</a>
+      </nav>
+    </header>
 
-<nav>
-  <a href="/">Home</a>
-  <a href="/about.html">About</a>
-  <a href="/research.html">Research</a>
-  <a href="/publications.html">Publications</a>
-  <a href="/contact.html">Contact</a>
-</nav>
+    <main class="content">
+      {{ content }}
+    </main>
 
-<main>
-  {{ content }}
-</main>
-
-<footer>
-  © Manish Dutta 2026
-</footer>
-
+    <footer class="site-footer">
+      <p>© Manish Dutta 2026</p>
+    </footer>
+  </div>
 </body>
 </html>
