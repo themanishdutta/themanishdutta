@@ -1,11 +1,12 @@
 :root {
-  --text: #1f1f1f;
-  --muted: #666;
-  --line: #d9d9d9;
-  --link: #1f4e79;
+  --text: #222222;
+  --muted: #6f6f6f;
+  --line: #e5e5e5;
+  --link: #2f5d7c;
   --bg: #ffffff;
 }
 
+/* Base */
 html {
   font-size: 17px;
 }
@@ -18,12 +19,18 @@ body {
   line-height: 1.75;
 }
 
+/* Layout */
 .site-container {
   max-width: 760px;
   margin: 0 auto;
   padding: 2.5rem 1.25rem 4rem;
 }
 
+main {
+  margin-top: 20px;
+}
+
+/* Header */
 .site-header {
   margin-bottom: 2.5rem;
   padding-bottom: 1rem;
@@ -38,21 +45,24 @@ body {
   text-decoration: none;
 }
 
+/* Navigation */
 .site-nav {
   margin-top: 0.9rem;
 }
 
 .site-nav a {
   margin-right: 1rem;
-  color: var(--link);
+  color: var(--muted);
   text-decoration: none;
   font-size: 0.98rem;
 }
 
 .site-nav a:hover {
+  color: var(--text);
   text-decoration: underline;
 }
 
+/* Typography */
 h1, h2, h3 {
   font-family: Georgia, "Times New Roman", serif;
   color: var(--text);
@@ -61,31 +71,43 @@ h1, h2, h3 {
 
 h1 {
   font-size: 2rem;
-  margin-bottom: 0.3rem;
+  margin-bottom: 5px;
 }
 
 h2 {
   font-size: 1.35rem;
-  margin-top: 2.2rem;
+  margin-top: 30px;
   margin-bottom: 0.75rem;
 }
 
-p {
-  margin: 0 0 1rem;
+h3 {
+  margin-top: 30px;
 }
 
+/* Text */
+p {
+  margin: 0 0 1rem;
+  max-width: 680px;
+}
+
+ul {
+  padding-left: 1.2rem;
+}
+
+/* Subtext */
 .subtitle {
   color: var(--muted);
   font-size: 1.02rem;
-  margin-bottom: 0.6rem;
+  margin-bottom: 10px;
 }
 
 .keywords {
   color: var(--muted);
-  font-size: 0.96rem;
-  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+  margin-bottom: 20px;
 }
 
+/* Links */
 a {
   color: var(--link);
 }
@@ -94,55 +116,21 @@ a:hover {
   text-decoration: underline;
 }
 
+/* Image */
 .profile-image {
-  width: 220px;
+  width: 180px;
   max-width: 100%;
   height: auto;
   display: block;
-  margin: 1.2rem 0 1.5rem;
+  margin: 15px 0 20px;
+  border-radius: 4px;
 }
 
-ul {
-  padding-left: 1.2rem;
-}
-
+/* Footer */
 .site-footer {
   margin-top: 3rem;
   padding-top: 1rem;
   border-top: 1px solid var(--line);
   color: var(--muted);
   font-size: 0.92rem;
-}
-.site-footer {
-  margin-top: 3rem;
-  padding-top: 1rem;
-  border-top: 1px solid var(--line);
-  color: var(--muted);
-  font-size: 0.92rem;
-}
-
-main {
-  margin-top: 20px;
-}
-
-p {
-  max-width: 680px;
-}
-
-.keywords {
-  margin-bottom: 20px;
-  color: #666;
-  font-size: 0.95rem;
-}
-
-.subtitle {
-  margin-bottom: 10px;
-}
-
-h1 {
-  margin-bottom: 5px;
-}
-
-h2, h3 {
-  margin-top: 30px;
 }
